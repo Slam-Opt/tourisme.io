@@ -1,0 +1,194 @@
+* 
+{
+  /* largeur et hauteur des ÃƒÂ©lÃƒÂ©ments */
+  box-sizing: border-box
+}
+
+body 
+{
+  font-family: Arial,"Lato", sans-serif ;
+ /* border: solid red;*/
+}
+
+
+div[class='titre']
+{
+	/*border: solid blue;*/
+	padding: 10px;
+	text-align: center;
+	background-color: #BBD2E1;
+}
+
+
+div[class='logo'] img
+{
+	border: solid blue;
+	width: 20%;
+	margin: 0px;
+	padding: 0px;
+ /* margin-left: 10px;*/
+  /*border-radius: 50%;*/
+}
+
+div[class='diapo'] img
+{
+	border: solid blue;
+	width: 100%;
+	height: 350px;
+	margin: 0px;
+	padding: 0px;
+ /* margin-left: 10px;*/
+  /*border-radius: 50%;*/
+}
+
+
+div[class='logo']:after 
+{
+ /* content: "";
+  display: table;*/
+  clear: both;
+}
+
+
+/* LOGO GAUCHE */
+div[class='gauche']
+{
+	border: solid green;
+	/*float: left;*/
+	
+}
+
+/* LOGO DROITE */
+div[class='droite']
+{
+	border: solid blue;
+/*	float: right;*/
+	
+}
+
+
+
+/* BARRE DE NAVIGATION */
+nav[class='entete']
+{
+	/*border: solid green;*/
+	padding: 10px;
+	text-align: center;
+	background-color: #BBD2E1;
+}
+
+/* LIENS BARRES DE NAVIGATION */
+nav[class='entete'] a
+{
+	border: solid green;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+/* LARGEUR SECTION */
+section
+{
+	/*border: solid red;*/
+	max-width: 1200px;
+	margin: auto;
+	/*border: 1px solid #ccc;*/
+}
+
+
+/* NAVIGATION SECTION 2 */
+nav[class='main']
+{
+	/*border: solid green;*/
+	float: left;
+	/*height: 50px;*/
+	width: 20%;
+}
+
+
+nav[class='main'] a
+{
+	border: 1px solid #ccc;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	text-decoration: none;
+
+}
+
+
+
+form
+{
+	/*border: solid red;*/
+	float: left;
+	/*border: solid red;*/
+	width: 40%;
+	padding: 20px;
+	background-color: #EFEFEF;
+}
+
+label
+{
+	display: block;
+	float: left;
+	width: 30%;
+	text-align: right;
+}
+
+input
+{
+	display: block;
+}
+
+label, input
+{
+	margin: 5px;
+	/*border: solid blue;*/
+}
+
+
+h2
+{
+	/*border: solid green;*/
+	margin: auto;
+	text-align: center;
+	/*padding: 10px;*/
+}
+
+hr
+{
+	border: 1px solid #ccc;
+}
+
+form div
+{
+	display: block;
+	/*border: solid red;*/
+	text-align: center;
+	padding: 15px;
+}
+
+button
+{
+	/*border: solid red;*/
+	margin-left: 15px;
+	cursor: pointer;
+	padding: 4px;
+	width: 20%;
+}
+
+
+button:hover
+{
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
+

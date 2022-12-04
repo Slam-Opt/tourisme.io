@@ -1,0 +1,115 @@
+*
+{
+    /* largeur et hauteur des ÃƒÂ©lÃƒÂ©ments */
+    box-sizing: border-box;
+}
+
+
+div[class="titre"]
+{ 
+    border: 1px solid black; 
+    grid-area: titre;
+}
+
+
+/* 1° - on dispose les grilles */
+header
+{ 
+    border: 1px solid blue; 
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section[class="header"] article
+{
+    border: 1px solid red;
+}
+
+
+
+section
+{ 
+    /* display: grid; 
+    border: 1px solid tomato;
+    grid-template-columns: 1fr 1fr ;
+} */
+
+section[class="diapo"]
+{ 
+    display: grid; 
+    border: 1px solid navy;
+    grid-template-columns: 1fr;
+}
+
+section[class="logo"] div
+{ 
+    display: grid; 
+    border: 1px solid tomato;
+}
+
+
+/* 2° - on détermine les blocs de chacune des grilles */
+
+header { grid-area: ;}
+main { grid-area: ;}
+div { grid-area: ;}
+section[class="logo"] { grid-area: ;}
+section[class="diapo"] { grid-area: ;}
+
+
+
+
+
+
+
+
+/* 1° - on détermine les blocs du body */
+/* div[class="titre"] {grid-area: titre; border: 1px solid rebeccapurple;} */
+/* header {grid-area: head; border: 1px solid blue;}
+nav { grid-area: nav ; border: 1px solid blue;}
+main { grid-area: main ; border: 1px solid red;}
+footer{ grid-area: foot; border: 1px solid blue;} */
+  
+
+/* 2° - on dispose chacun de ces blocs  */
+/* div[class="body"]
+{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr ; */
+
+    /* grid-template-rows: 1fr 5fr 1fr 3fr 2fr 8fr ; */
+    /* grid-template-areas: "titre titre titre titre titre"
+                        ". . head head head head . ."
+                        "nav nav nav nav nav nav";  */
+    
+/* }  */
+
+/* 3° on détermine les blocs d'en-tête */
+/* 
+header div {grid-area: titre; border: 1px solid blue;}
+header article {grid-area: article; border: 1px solid red;} */
+
+/* on dispose chacun des blocs d'en-tête */
+/* header
+{
+    display: grid; */
+    /* grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: "titre titre titre"
+                         "article article article"; */
+/* } */
+
+
+
+
+/* 
+header div
+{
+    display: grid; border: 1px solid black; */
+    /* grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "titre"; */
+    /* align-items: center; */
+/* } */
+
+
